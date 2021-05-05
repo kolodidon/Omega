@@ -13,10 +13,11 @@ const Navbar = () => {
     const showButton = () => { if (window.innerWidth <= 960) { setButton(false) } else { setButton(true) } }
 
     useEffect(() => {
-        showButton()
+        window.addEventListener('resize', showButton)
+        return window.removeEventListener('resize', showButton)
     }, [])
 
-    window.addEventListener('resize', showButton)
+
 
     return (
         <>
@@ -25,7 +26,7 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to='/'>
                             <NavIcon />
-                        УЛЬТРА
+                            УЛЬТРА
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
