@@ -26,7 +26,7 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to='/'>
                             <NavIcon />
-                            УЛЬТРА
+                            ОМЕГА
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}

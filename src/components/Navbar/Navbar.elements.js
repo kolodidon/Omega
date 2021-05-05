@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { BsPentagonHalf } from 'react-icons/bs';
+import { ImOmega } from 'react-icons/im';
 import { Container } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 
@@ -30,7 +30,7 @@ export const NavLogo = styled(Link)`
     display: flex;
     align-items: center;
 `
-export const NavIcon = styled(BsPentagonHalf)`
+export const NavIcon = styled(ImOmega)`
     margin-right: 0.5rem;
 
 `
