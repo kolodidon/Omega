@@ -38,8 +38,8 @@ const Navbar = () => {
                             <NavItemBtn>
                                 {
                                     button
-                                        ? <NavBtnLink to="/sign-up"><Button primary>Регистрация</Button></NavBtnLink>
-                                        : <NavBtnLink to="/sign-up"><Button fontBig primary>Регистрация</Button></NavBtnLink>
+                                        ? <NavBtnLink to="/sign-up"><Button>Регистрация</Button></NavBtnLink>
+                                        : <NavBtnLink to="/sign-up"><Button fontBig>Регистрация</Button></NavBtnLink>
                                 }
                             </NavItemBtn>
                         </NavMenu>

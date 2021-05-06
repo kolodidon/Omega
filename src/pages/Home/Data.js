@@ -1,60 +1,65 @@
-export const homeObjectOne = {
-    lightBg: false,
+export const homeObjOne = {
     primary: true,
-    imgStart: '',
+    lightBg: false,
     lightTopLine: true,
-    lightTextDesc: true,
-    buttonLabel: 'Начать',
-    description: 'Мы помогаем владельцам бизнеса повысить свою прибыль. Наша команда уникальных специалистов поможет Вам достигнуть цели!',
-    headline: 'Специалисты по лидогенерации для бизнесов в онлайне',
     lightText: true,
+    lightTextDesc: true,
     topLine: 'Маркетинговое Агентство',
+    headline: 'Специалисты по лидогенерации для онлайн-бизнесов',
+    description:
+      'Мы помогаем владельцам бизнеса увеличить свой доход. Наша команда уникальных специалистов поможет вам в достижении ваших бизнес-целей.',
+    buttonLabel: 'Начать',
+    imgStart: '',
     img: require('../../images/svg-1.svg').default,
-    alt: 'Image',
-    start: '',
-}
-export const homeObjectTwo = {
-    lightBg: true,
-    primary: false,
-    imgStart: 'start',
-    lightTopLine: false,
-    lightTextDesc: false,
-    buttonLabel: 'Начать',
-    description: 'Мы помогаем владельцам бизнеса повысить свою прибыль. Наша команда уникальных специалистов поможет Вам достигнуть цели!',
-    headline: 'Специалисты по лидогенерации для бизнесов в онлайне',
-    lightText: false,
-    topLine: 'Маркетинговое Агентство',
-    img: require('../../images/svg-2.svg').default,
-    alt: 'Image',
-    start: 'true',
-}
-export const homeObjectThree = {
-    lightBg: false,
+    alt: 'Credit Card',
+    start: ''
+  };
+  export const homeObjTwo = {
     primary: true,
-    imgStart: '',
-    lightTopLine: true,
-    lightTextDesc: true,
-    buttonLabel: 'Начать',
-    description: 'Мы помогаем владельцам бизнеса повысить свою прибыль. Наша команда уникальных специалистов поможет Вам достигнуть цели!',
-    headline: 'Специалисты по лидогенерации для бизнесов в онлайне',
-    lightText: true,
-    topLine: 'Маркетинговое Агентство',
-    img: require('../../images/svg-3.svg').default,
-    alt: 'Image',
-    start: '',
-}
-export const homeObjectFour = {
     lightBg: true,
-    primary: false,
-    imgStart: 'start',
     lightTopLine: false,
-    lightTextDesc: false,
-    buttonLabel: 'Начать',
-    description: 'Мы помогаем владельцам бизнеса повысить свою прибыль. Наша команда уникальных специалистов поможет Вам достигнуть цели!',
-    headline: 'Специалисты по лидогенерации для бизнесов в онлайне',
     lightText: false,
-    topLine: 'Маркетинговое Агентство',
+    lightTextDesc: false,
+    topLine: 'Мгновенная настройка',
+    headline: 'Очень быстрый процесс запуска работ',
+    description:
+      "Как только вы присоединитесь, наша команда специалистов свяжется с вами и немедленно приступит к работе.",
+    buttonLabel: 'Узнать больше',
+    imgStart: 'start',
+    img: require('../../images/svg-2.svg').default,
+    alt: 'Vault',
+    start: 'start'
+  };
+  export const homeObjThree = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Василий Пупкин',
+    headline:
+      'В Омеге мне помогли увеличить доход в 3 раза меньше чем за 3 месяца!',
+    description:
+      "У них замечательная команда! Очень жалею, что не начал работать с ними раньше.",
+    buttonLabel: 'Посмотреть кейс',
+    imgStart: '',
     img: require('../../images/profile.svg').default,
-    alt: 'Image',
-    start: 'true',
-}
+    alt: 'Vault',
+    start: ''
+  };
+  export const homeObjFour = {
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Безопасная база данных',
+    headline: 'Все ваши данные хранятся на нашем защищенном сервере',
+    description:
+      'Вам не придется беспокоиться об утечке данных. Наша команда экспертов по безопасности позаботится о том, чтобы ваши данные остались конфиденциальны.',
+    buttonLabel: 'Зарегистрироваться',
+    imgStart: 'start',
+    img: require('../../images/svg-3.svg').default,
+    alt: 'Vault',
+    start: 'true'
+  };

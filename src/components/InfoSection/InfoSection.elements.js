@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const InfoSec = styled.div`
     color: #fff;
     padding: 216px 0;
-    background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+    background: ${({ lightBg }) => (lightBg ? '#fff' : '#5b9174')};
 `
 export const InfoRow = styled.div`
     display: flex;
@@ -37,7 +37,7 @@ export const TextWrapper = styled.div`
     }
 `
 export const TopLine = styled.div`
-    color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4b59f7')};
+    color: ${({lightTopLine}) => (lightTopLine ? '#f7f8fa' : '#365043')};
     font-size: 18px;
     line-height: 16px;
     letter-spacing: 1.4px;
@@ -54,7 +54,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+    color: ${({lightTextDesc}) => (lightTextDesc ? '#f7f8fa' : '#1c2237')};
 `
 export const ImgWrapper = styled.div`
     max-width: 555px;

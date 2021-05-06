@@ -19,7 +19,7 @@ import {
 
 const Pricing = () => {
     return (
-        <IconContext.Provider value={{color: '#a9b3c1', size: 64}}>
+        <IconContext.Provider value={{color: '#fff', size: 64}}>
             <PricingSection>
                 <PricingWrapper>
                     <PricingHeading>Наши тарифы</PricingHeading>
@@ -68,7 +68,7 @@ const Pricing = () => {
                                 <PricingCardCost>10000₽</PricingCardCost>
                                 <PricingCardLength>В месяц</PricingCardLength>
                                 <PricingCardFeatures>
-                                    <PricingCardFeature>Неограниченные новые пользователи</PricingCardFeature>
+                                    <PricingCardFeature>10000 новых пользователей</PricingCardFeature>
                                     <PricingCardFeature>Дополнительные услуги на 13000₽</PricingCardFeature>
                                     <PricingCardFeature>Поддержка 24/7</PricingCardFeature>
                                 </PricingCardFeatures>
